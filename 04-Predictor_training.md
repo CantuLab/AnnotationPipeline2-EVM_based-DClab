@@ -54,7 +54,7 @@ rsync -av "${AUGUSTUS_CONFIG}/species/${GENOME_PREFIX}" .
 
 ## 4.2. GeneMark-ET training
 
-> **License:** GeneMark-ET requires a free license key from the [GeneMark website](http://exon.gatech.edu/GeneMark/). Place it at `~/.gm_key` before running.
+> **License:** GeneMark-ET requires a free license key from the <a href="http://exon.gatech.edu/GeneMark/" target="_blank">GeneMark website</a>. Place it at `~/.gm_key` before running.
 
 ```bash
 # One-time license key setup
