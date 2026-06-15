@@ -23,11 +23,11 @@
 
 ### Custom scripts
 
-The following lab scripts are used in steps 3, 7, 8, and 9. Replace them with equivalent tools if unavailable:
+The following lab scripts are bundled in the `scripts/` directory of this repository and are used in steps 3, 7, 8, and 9:
 
-- `GFF_extract_features.py` — filters and validates GFF3 gene models (removes incomplete CDS, short proteins, multi-copy genes)
-- `GFF_RenameThemAll.py` — applies a standardized gene nomenclature to a GFF3 file
-- `getLengthFromFasta.py` — reports sequence length from a FASTA file
+- [`GFF_extract_features.py`](scripts/GFF_extract_features.py) — filters and validates GFF3 gene models (removes incomplete CDS, short proteins, multi-copy genes)
+- [`GFF_RenameThemAll.py`](scripts/GFF_RenameThemAll.py) — applies a standardized gene nomenclature to a GFF3 file
+- [`getLengthFromFasta.py`](scripts/getLengthFromFasta.py) — reports sequence length from a FASTA file
 
 ### Input data
 
@@ -74,7 +74,7 @@ GENEMARK_DIR="/path/to/gmes_linux_64"          # GeneMark-ET directory
 EVM_TOOLS="/path/to/EVidenceModeler"           # EVM installation root
 GFFREAD="/path/to/gffread"                     # gffread binary
 FASTA_BIN="/path/to/fasta/bin"                 # fasta toolkit bin directory (used in polishing)
-SCRIPTS_DIR="/path/to/custom_scripts"          # directory with GFF_extract_features.py etc.
+SCRIPTS_DIR="/path/to/this/repo/scripts"        # scripts/ directory of this repository
 
 # GeneMark license key archive (downloaded from the GeneMark website)
 GM_KEY_FILE="/path/to/gm_key.gz"
