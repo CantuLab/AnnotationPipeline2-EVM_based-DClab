@@ -25,7 +25,7 @@ This pipeline performs structural annotation of a genome assembly using:
 | [06 — Evidence alignment](06-Evidence_alignment.md) | Preparing transcript alignment tracks for EVM |
 | [07 — EVM consensus & polishing](07-EVM_consensus.md) | Evidence-weighted consensus calling and PASA-based annotation polishing |
 | [08 — Filtering](08-Filtering.md) | Removing incomplete and short gene models |
-| [09 — Rename](09-Renaming.md) | Applying final standardized gene nomenclature |
+| [09 — Renaming](09-Renaming.md) | Applying final standardized gene nomenclature |
 
 ## Related resources
 
