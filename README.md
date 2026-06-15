@@ -31,12 +31,12 @@ This pipeline performs structural annotation of a genome assembly using:
 
 This pipeline is a continuation of the original EVM-based annotation pipeline developed in the DC Lab:
 
-> <a href="https://github.com/andreaminio/AnnotationPipeline-EVM_based-DClab" target="_blank">AnnotationPipeline-EVM_based-DClab</a>
+> [AnnotationPipeline-EVM_based-DClab](https://github.com/andreaminio/AnnotationPipeline-EVM_based-DClab)
 
 ## Citations
 
 This pipeline was used in the following publications:
 
-- Massonnet M, Zaccheo M, Cochetel N, Figueroa-Balderas R, Riaz S, Cantu D (2026). Haplotype graph analysis of *PdR1* uncovers resistance diversity to Pierce's disease in *Vitis arizonica* and its hybrids. *G3 Genes|Genomes|Genetics*, jkag115. <a href="https://doi.org/10.1093/g3journal/jkag115" target="_blank">https://doi.org/10.1093/g3journal/jkag115</a>
+- Massonnet M, Zaccheo M, Cochetel N, Figueroa-Balderas R, Riaz S, Cantu D (2026). Haplotype graph analysis of *PdR1* uncovers resistance diversity to Pierce's disease in *Vitis arizonica* and its hybrids. *G3 Genes|Genomes|Genetics*, jkag115. https://doi.org/10.1093/g3journal/jkag115
 
-- Massonnet M, Figueroa-Balderas R, Cochetel N, Riaz S, Pap D, Walker MA, Cantu D (2025). Dissection of the *Ren6* and *Ren7* powdery mildew resistance loci in *Vitis piasezkii* DVIT2027 using phased parental–progeny genomes and intraspecific locus graph reconstruction. *G3 Genes|Genomes|Genetics*, 15(12), jkaf250. <a href="https://doi.org/10.1093/g3journal/jkaf250" target="_blank">https://doi.org/10.1093/g3journal/jkaf250</a>
+- Massonnet M, Figueroa-Balderas R, Cochetel N, Riaz S, Pap D, Walker MA, Cantu D (2025). Dissection of the *Ren6* and *Ren7* powdery mildew resistance loci in *Vitis piasezkii* DVIT2027 using phased parental–progeny genomes and intraspecific locus graph reconstruction. *G3 Genes|Genomes|Genetics*, 15(12), jkaf250. https://doi.org/10.1093/g3journal/jkaf250

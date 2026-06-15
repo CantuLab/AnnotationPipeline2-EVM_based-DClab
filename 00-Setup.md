@@ -10,16 +10,16 @@
 
 | Tool | Tested version | Purpose |
 |---|---|---|
-| <a href="https://www.repeatmasker.org/" target="_blank">RepeatMasker</a> | 4.1.7-p1 | Repeat annotation |
-| <a href="http://research-pub.gene.com/gmap/" target="_blank">GMAP</a> | 2024-11-20 | Transcript alignment |
-| <a href="https://github.com/icebert/pblat" target="_blank">pblat</a> | 2.5.1 | Transcript alignment (fast BLAT) |
-| <a href="https://github.com/PASApipeline/PASApipeline" target="_blank">PASA</a> | 2.5.3 | Transcript assembly and gene model polishing |
-| <a href="https://github.com/Gaius-Augustus/Augustus" target="_blank">Augustus</a> | 3.5.0 | Ab initio gene prediction |
-| <a href="http://exon.gatech.edu/GeneMark/" target="_blank">GeneMark-ET</a> | gmes 4 | Ab initio gene prediction (requires a free license key) |
-| <a href="https://github.com/EVidenceModeler/EVidenceModeler" target="_blank">EVidenceModeler</a> | 2.1.0 | Gene model consensus |
-| <a href="https://github.com/gpertea/gffread" target="_blank">gffread</a> | any | CDS/protein extraction from GFF3 |
-| <a href="http://www.htslib.org/" target="_blank">samtools</a> | any | FASTA indexing |
-| <a href="https://www.gnu.org/software/parallel/" target="_blank">GNU parallel</a> | any | Parallel execution |
+| [RepeatMasker](https://www.repeatmasker.org/) | 4.1.7-p1 | Repeat annotation |
+| [GMAP](http://research-pub.gene.com/gmap/) | 2024-11-20 | Transcript alignment |
+| [pblat](https://github.com/icebert/pblat) | 2.5.1 | Transcript alignment (fast BLAT) |
+| [PASA](https://github.com/PASApipeline/PASApipeline) | 2.5.3 | Transcript assembly and gene model polishing |
+| [Augustus](https://github.com/Gaius-Augustus/Augustus) | 3.5.0 | Ab initio gene prediction |
+| [GeneMark-ET](http://exon.gatech.edu/GeneMark/) | gmes 4 | Ab initio gene prediction (requires a free license key) |
+| [EVidenceModeler](https://github.com/EVidenceModeler/EVidenceModeler) | 2.1.0 | Gene model consensus |
+| [gffread](https://github.com/gpertea/gffread) | any | CDS/protein extraction from GFF3 |
+| [samtools](http://www.htslib.org/) | any | FASTA indexing |
+| [GNU parallel](https://www.gnu.org/software/parallel/) | any | Parallel execution |
 
 ### Custom scripts
 
