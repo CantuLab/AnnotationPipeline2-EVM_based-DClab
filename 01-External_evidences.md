@@ -4,7 +4,7 @@
 
 # 01 — External evidences
 
-Collect all external transcript evidence into one directory before starting the pipeline. Supported types include Iso-Seq HQ reads and CDS FASTA files from closely related species. All files must be in FASTA format.
+Collect all external transcript evidences into one directory before starting the pipeline. Supported types include Iso-Seq HQ reads and CDS FASTA files from closely related species. All files must be in FASTA format.
 
 ```bash
 # Copy or symlink your evidence files into the external evidence directory

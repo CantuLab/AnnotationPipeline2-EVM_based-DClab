@@ -4,7 +4,7 @@
 
 # 03 — Training set creation
 
-PASA aligns all transcript evidence to the genome using GMAP and BLAT, assembles overlapping alignments into consensus transcript models, and uses TransDecoder to identify ORFs. The resulting transcript-based gene models are used to train Augustus and GeneMark-ET in [step 04](04-Predictor_training.md). The alignment files produced here are also reused in [steps 05](05-Ab_initio_prediction.md) and [06](06-Evidence_alignment.md).
+PASA aligns all transcript evidences to the genome using GMAP and BLAT, assembles overlapping alignments into consensus transcript models, and uses TransDecoder to identify ORFs. The resulting transcript-based gene models are used to train Augustus and GeneMark-ET in [step 04](04-Predictor_training.md). The alignment files produced here are also reused in [steps 05](05-Ab_initio_prediction.md) and [06](06-Evidence_alignment.md).
 
 ### 3.0. Setup
 
@@ -160,7 +160,7 @@ GENOME_PATH="${TRAINING_DIR}/$(basename ${GENOME_FASTA})"
   > mRNA_training_PASA.sqlite.pasa_assemblies_described.txt
 ```
 
-### 3.5. Extract training gene models from the genome
+### 3.5. Extract training gene models
 
 ```bash
 "${PASA_DIR}/scripts/pasa_asmbls_to_training_set.dbi" \

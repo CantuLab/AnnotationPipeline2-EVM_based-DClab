@@ -1,4 +1,4 @@
-[Home](README.md) | [← EVM consensus & polishing](07-EVM_consensus.md) | [Next: Rename →](09-Rename.md)
+[Home](README.md) | [← EVM consensus & polishing](07-EVM_consensus.md) | [Next: Rename →](09-Renaming.md)
 
 ---
 
@@ -63,4 +63,4 @@ awk '$3=="gene"' gene_models_checked_test.gff3 | wc -l
 
 ---
 
-[Home](README.md) | [← EVM consensus & polishing](07-EVM_consensus.md) | [Next: Rename →](09-Rename.md)
+[Home](README.md) | [← EVM consensus & polishing](07-EVM_consensus.md) | [Next: Rename →](09-Renaming.md)

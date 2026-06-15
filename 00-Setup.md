@@ -74,7 +74,7 @@ GENEMARK_DIR="/path/to/gmes_linux_64"          # GeneMark-ET directory
 EVM_TOOLS="/path/to/EVidenceModeler"           # EVM installation root
 GFFREAD="/path/to/gffread"                     # gffread binary
 FASTA_BIN="/path/to/fasta/bin"                 # fasta toolkit bin directory (used in polishing)
-SCRIPTS_DIR="/path/to/this/repo/scripts"        # scripts/ directory of this repository
+SCRIPTS_DIR="/path/to/this/repo/scripts"       # scripts/ directory of this repository
 
 # GeneMark license key archive (downloaded from the GeneMark website)
 GM_KEY_FILE="/path/to/gm_key.gz"

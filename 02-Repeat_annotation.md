@@ -15,11 +15,11 @@ cd "${REPEAT_DIR}"
 cp "${GENOME_FASTA}" .
 GENOME=$(basename "${GENOME_FASTA}")
 
-nohup "${REPEATMASKER_DIR}/RepeatMasker" \
+"${REPEATMASKER_DIR}/RepeatMasker" \
   -pa 6 -s \
   -lib "${REPEAT_LIB}" \
   -a -lcambig -xsmall -poly -source -html -ace -gff -u -xm -excln -e ncbi \
-  "${GENOME}" &
+  "${GENOME}"
 ```
 
 ### 2.2. Convert RepeatMasker output to GFF3
@@ -37,7 +37,7 @@ grep -v '^#' "${GENOME}.out.gff3" > "${EVM_DIR}/repeats.gff3"
 ### 2.4. Build repeat summary statistics
 
 ```bash
-nohup "${REPEATMASKER_DIR}/util/buildSummary.pl" "${GENOME}.out" > "${GENOME}.out.stats" &
+"${REPEATMASKER_DIR}/util/buildSummary.pl" "${GENOME}.out" > "${GENOME}.out.stats"
 ```
 
 ### 2.5. Create publication-ready repeat GFF3
